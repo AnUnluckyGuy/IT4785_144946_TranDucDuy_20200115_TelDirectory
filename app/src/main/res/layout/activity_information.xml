@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/info_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID0000"
+            android:textSize="30sp"
+            android:layout_marginVertical="20dp"/>
+
+        <TextView
+            android:id="@+id/info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duy Tran"
+            android:textSize="30sp"
+            android:layout_marginVertical="20dp"/>
+        <TextView
+            android:id="@+id/info_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0837198139"
+            android:textSize="30sp"
+            android:layout_marginVertical="20dp"/>
+        <TextView
+            android:id="@+id/info_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email@gmail.com"
+            android:textSize="30sp"
+            android:layout_marginVertical="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
